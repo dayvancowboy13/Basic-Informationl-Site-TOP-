@@ -19,5 +19,9 @@
   "homepage": "https://github.com/dayvancowboy13/Basic-Informationl-Site-TOP-#readme",
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
   }
 }

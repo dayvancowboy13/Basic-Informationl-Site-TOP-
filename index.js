@@ -1,9 +1,12 @@
 const http = require('node:http');
 const fs = require('node:fs');
+require("dotenv").config();
 
 const server = http.createServer((req, res) => {
 
     console.log('Server started...');
+    console.log('Accessing environment variables...');
+    console.log(`The variable is ${process.env.MY_VAR}`);
 
     res.setHeader('Content-Type', 'text/html')
     let path = './';
