@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
             path += 'about.html';
             res.statusCode = 200;
             break;
-        case '/contact':
+        case '/contact-me':
             path += 'contact-me.html';
             res.statusCode = 200;
             break;
